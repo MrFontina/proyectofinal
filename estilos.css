@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.jumbotron{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    text-align: center;
+    height: 110px;
+    padding-bottom: 100px;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.jumbotron h1{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+}
+.jumbotron p{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.about{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+#imghome{    
+    width: 100%;
+    filter: sepia(80%);
+    transition: filter 1s; 
+}
+#imghome:hover{
+    filter: sepia(50%);
+}
+.aright p{
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    color: black;
+    font-size: 20px;
+}
+@media only screen and (min-width: 942px){
+    .aright p{
+        font-size: 25px;
+    }
+}
+.footer {
+    height: 80px;
+    background-color: rgba(97, 92, 92, 0.377);
+    text-align: center;
+}
+.footer p{
+    font-family: league Spartan;
+    font-weight: bold;
+}
+.jumbotronMusica{
+    height: 150px;
+    background-image: url(/img/0466_Usina_El\ Aula_Loiacono_20171304_DSC5192.jpg);
+    background-size: cover;
+    background-position: center;   
+    filter: grayscale(60%);
+    text-align: center;    
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+    /* font-family: ; */
+    font-weight: bolder;
+    font-size: 32px;
+    color: rgba(250, 211, 36, 0.932);
+    text-shadow: 1px 1px 1px black;
+}
+.jumbotronMusica2{
+    height: 150px;
+    background-image: url(/img/tele.jpeg);
+    background-size: cover;
+    background-position: center;   
+    filter: grayscale(50%);
+    text-align: center;    
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* font-family: ; */
+    font-weight: bolder;
+    font-size: 32px;
+    color: rgba(250, 211, 36, 0.932);
+    text-shadow: 1px 1px 1px black;
+}
+
+.jumbotronFechas{
+    height: 150px;
+    background-image: url(/img/pedales.jpg);
+    background-size: cover;
+    filter: grayscale(30%);    
+    text-align: center;    
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    /* font-family: ; */
+    font-weight: bolder;
+    font-size: 32px;
+    color: rgba(250, 211, 36, 0.932);
+    text-shadow: 1px 1px 1px black;
+}
+.card{
+    background-color: rgba(81, 168, 139, 0.336);
+}
