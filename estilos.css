@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200&family=Roboto:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -50,10 +51,38 @@
     height: 80px;
     background-color: rgba(97, 92, 92, 0.377);
     text-align: center;
-}
+    }
 .footer p{
-    font-family: league Spartan;
+    font-family: 'League Spartan', sans-serif;
     font-weight: bold;
+}
+#spotify{
+    transition: 1s;
+}
+#spotify:hover{
+    font-size: 20px;
+    color: blue;
+}
+#instagram{
+    transition: 1s;
+}
+#instagram:hover{
+    font-size: 20px;
+    color: green;
+}
+#facebook{
+    transition: 1s;
+}
+#facebook:hover{
+    font-size: 20px;
+    color: brown;
+}
+#mail{
+    transition: 1s;
+}
+#mail:hover{
+    font-size: 20px;
+    color: yellow;
 }
 .jumbotronMusica{
     height: 150px;
@@ -104,6 +133,115 @@
     color: rgba(250, 211, 36, 0.932);
     text-shadow: 1px 1px 1px black;
 }
+.jumbotronClases{
+    height: 150px;
+    background-image: url(/img/amps.jpg);
+    background-size: cover;
+    background-position: bottom;
+    filter: grayscale(60%);    
+    text-align: center;    
+    padding-bottom: 50px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    /* font-family: ; */
+    font-weight: bolder;
+    font-size: 32px;
+    color: rgba(250, 211, 36, 0.932);
+    text-shadow: 1px 1px 1px black;
+}
+.jumbotronClases p{
+    font-size: 24px;
+}
 .card{
     background-color: rgba(81, 168, 139, 0.336);
 }
+.clasesGuitarra{
+    background-color: rgb(221, 214, 214);
+    display: flex;
+    flex-flow: column;
+    justify-content: center space-between;
+    align-items: center;
+    padding: 10px 10px 10px 10px;
+}
+.gleft{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.gleft h2{
+    font-family: 'Roboto', sans-serif;
+}
+.gleft h2:hover{
+    color: brown;
+}
+#gclases{
+    filter: sepia(100%);
+    transition: 1s;
+}
+#gclases:hover{
+    filter: sepia(50%);
+}
+@media only screen and (min-width: 768px){
+    .clasesGuitarra{
+        flex-flow: row;
+    }
+    .gleft{
+        width: 100%;
+        font-size: 19px;
+    }
+    .gright{
+        width: 100%;
+        padding-left: 100px;
+        }
+}
+.clasesEnsamble{
+    height: 800px;
+    display: grid;
+    grid-template-rows: repeat(4,200px);
+    grid-template-areas:
+    "e1"
+    "e3"
+    "e3"
+    "e2";
+}
+.e1{
+    background-image: url(/img/en1.jpg);
+    filter: grayscale(50%);
+    height: 200px;
+    background-size: cover;
+    grid-area: e1;
+}
+.e2{
+    background-image: url(/img/e2.jpg);
+    filter: grayscale(50%);
+    height: 200px;
+    background-size: cover;
+    grid-area: e2;
+}
+.e3{
+    background-color: rgb(248, 248, 193);
+    grid-area: e3;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+}
+.e3 h2{
+    font-family: 'Roboto', sans-serif;
+}
+.e3 h2:hover{
+    color: brown;
+}
+@media only screen and (min-width: 768px){
+    .clasesEnsamble{
+        grid-template-columns: repeat(2, 50%);
+        grid-template-areas: 
+        "e1 e3"
+        "e2 e3"
+        ;
+        height: 500px;
+    }
+    .e3{
+        font-size: 19px;
+    }
+}
+
