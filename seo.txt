@@ -1,0 +1,3 @@
+Agregué meta description en index y todas las pages
+Agregué meta keywords en el index
+Cambié algunos titles
