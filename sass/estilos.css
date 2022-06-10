@@ -88,7 +88,7 @@
 
 .jumbotronMusica {
   height: 150px;
-  background-image: url(/img/0466_Usina_El\ Aula_Loiacono_20171304_DSC5192.jpg);
+  background-image: url(../img/0466_Usina_El\ Aula_Loiacono_20171304_DSC5192.jpg);
   background-size: cover;
   background-position: center;
   filter: grayscale(60%);
@@ -105,7 +105,7 @@
 
 .jumbotronMusica2 {
   height: 150px;
-  background-image: url(/img/tele.jpeg);
+  background-image: url(../img/tele.jpeg);
   background-size: cover;
   background-position: center;
   filter: grayscale(50%);
@@ -123,7 +123,7 @@
 
 .jumbotronFechas {
   height: 150px;
-  background-image: url(/img/pedales.jpg);
+  background-image: url(../img/pedales.jpg);
   background-size: cover;
   filter: grayscale(30%);
   text-align: center;
@@ -139,7 +139,7 @@
 
 .jumbotronClases {
   height: 150px;
-  background-image: url(/img/amps.jpg);
+  background-image: url(../img/amps.jpg);
   background-size: cover;
   background-position: bottom;
   filter: grayscale(60%);
@@ -237,7 +237,7 @@
 }
 
 .e1 {
-  background-image: url(/img/en1.jpg);
+  background-image: url(../img/en1.jpg);
   filter: grayscale(50%);
   height: 200px;
   background-size: cover;
@@ -245,7 +245,7 @@
 }
 
 .e2 {
-  background-image: url(/img/e2.jpg);
+  background-image: url(../img/e2.jpg);
   filter: grayscale(50%);
   height: 200px;
   background-size: cover;
