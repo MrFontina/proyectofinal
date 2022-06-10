@@ -15,12 +15,14 @@
   padding-top: 20px;
   margin-bottom: 0;
 }
-.jumbotron h1 {
+
+.titulo {
   font-family: "League Spartan", sans-serif;
   font-weight: bolder;
   font-size: 32px;
 }
-.jumbotron p {
+
+.parrafo {
   font-family: "League Spartan", sans-serif;
   font-weight: bolder;
   font-size: 25px;
@@ -61,33 +63,24 @@
   font-weight: bold;
 }
 
-#spotify {
+#spotify, #mail, #facebook, #instagram {
   transition: 1s;
 }
-#spotify:hover {
+#spotify:hover, #mail:hover, #facebook:hover, #instagram:hover {
   font-size: 20px;
   color: blue;
 }
 
-#instagram {
-  transition: 1s;
-}
 #instagram:hover {
   font-size: 20px;
   color: green;
 }
 
-#facebook {
-  transition: 1s;
-}
 #facebook:hover {
   font-size: 20px;
   color: brown;
 }
 
-#mail {
-  transition: 1s;
-}
 #mail:hover {
   font-size: 20px;
   color: yellow;
@@ -165,8 +158,28 @@
   font-size: 24px;
 }
 
-.card {
-  background-color: rgba(81, 168, 139, 0.336);
+.card-red {
+  background-color: red;
+}
+
+.card-grey {
+  background-color: grey;
+}
+
+.card-green {
+  background-color: green;
+}
+
+.card-orange {
+  background-color: orange;
+}
+
+.card-violet {
+  background-color: violet;
+}
+
+.card-purple {
+  background-color: purple;
 }
 
 .clasesGuitarra {
