@@ -116,7 +116,7 @@ $fondo: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 .jumbotronMusica {
     height: 150px;
-    background-image: url(/img/0466_Usina_El\ Aula_Loiacono_20171304_DSC5192.jpg);
+    background-image: url(../img/0466_Usina_El\ Aula_Loiacono_20171304_DSC5192.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(60%);
@@ -132,7 +132,7 @@ $fondo: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 .jumbotronMusica2 {
     height: 150px;
-    background-image: url(/img/tele.jpeg);
+    background-image: url(../img/tele.jpeg);
     background-size: cover;
     background-position: center;
     filter: grayscale(50%);
@@ -165,7 +165,7 @@ $fondo: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 .jumbotronFechas {
     height: 150px;
-    background-image: url(/img/pedales.jpg);
+    background-image: url(../img/pedales.jpg);
     background-size: cover;
     filter: grayscale(30%);
     text-align: center;
@@ -180,7 +180,7 @@ $fondo: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 .jumbotronClases {
     height: 150px;
-    background-image: url(/img/amps.jpg);
+    background-image: url(../img/amps.jpg);
     background-size: cover;
     background-position: bottom;
     filter: grayscale(60%);
@@ -199,7 +199,7 @@ $fondo: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 .jumbotronContacto{
     @extend .jumbotronFechas;
-    background-image: url(/img/music-g0f61ea62a_1920.jpg);
+    background-image: url(../img/music-g0f61ea62a_1920.jpg);
     background-position: center;
 }
 
@@ -306,7 +306,7 @@ $colores in $mapa1 {
 }
 
 .e1 {
-    background-image: url(/img/en1.jpg);
+    background-image: url(../img/en1.jpg);
     filter: grayscale(50%);
     height: 200px;
     background-size: cover;
@@ -314,7 +314,7 @@ $colores in $mapa1 {
 }
 
 .e2 {
-    background-image: url(/img/e2.jpg);
+    background-image: url(../img/e2.jpg);
     filter: grayscale(50%);
     height: 200px;
     background-size: cover;
