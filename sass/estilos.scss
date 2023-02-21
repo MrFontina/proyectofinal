@@ -154,28 +154,32 @@ $color3: #7ed4e6;
 }
 
 
-.jumbotronMusica{
-    @extend .jumbotron
-}
+// .jumbotronMusica{
+//     @extend .jumbotron;
+// }
 
-.jumbotronMusica2{
-    @extend .jumbotron
-}
 
-.containerDiscos1 {
-    background-color: black;
-    margin-top: 0px;
-    padding-top: 10px;
-}
 
-.containerDiscos2 {
-    @extend .containerDiscos1;
-    padding-bottom: 10px
-}
 
-.containerVideos {
-    @extend .containerDiscos1;
-}
+
+// .jumbotronMusica2{
+//     @extend .jumbotron
+// }
+
+// .containerDiscos1 {
+//     background-color: black;
+//     margin-top: 0px;
+//     padding-top: 10px;
+// }
+
+// .containerDiscos2 {
+//     @extend .containerDiscos1;
+//     padding-bottom: 10px
+// }
+
+// .containerVideos {
+//     @extend .containerDiscos1;
+// }
 
 .mainFechas {
     background-color: black;
@@ -384,4 +388,7 @@ $colores in $mapa1 {
     .e3 {
         font-size: 19px;
     }
+}
+.albums{
+    background-color: red;
 }
