@@ -1,19 +1,24 @@
+
+
 .containerAlbums {
     width: 100%;
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(60deg, #29323c 70%, #485563 30%);
+    
 
 }
 
 .album {
-    border: solid 1px black;
+    height: 300px;
     margin-top: 30px;
     padding-left: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding-bottom: 10px;
+    filter: sepia(20%);
+   
 }
 
 .albumLeft{
@@ -34,11 +39,12 @@
 
 .albumRight{
     width: 60%;
-    padding-right: 60px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
     align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .albumRight p {
