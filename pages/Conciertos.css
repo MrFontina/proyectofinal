@@ -1,0 +1,36 @@
+.containerFechas{
+    background-image: linear-gradient(60deg, #29323c 70%, #485563 30%);
+    
+}
+
+.contenedorCards{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.cardFecha{
+    background-color:#212529;
+    font-family: "League Spartan", sans-serif;
+    color: white;  
+    margin: 20px;  
+}
+.card-body{
+    text-align: center;
+}
+.card-body p{
+    text-align: start;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.card-text{
+    line-height: 1.7;
+}
+.cardFecha ul li{
+    background-color: lightslategray;
+    color: black;
+}
+.list-group-item{
+    border: none;
+}
